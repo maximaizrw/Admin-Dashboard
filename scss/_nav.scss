@@ -1,0 +1,65 @@
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search {
+  width: 45%;
+  i {
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  input {
+    border: none;
+    background-color: #e2e8f0;
+    padding: 0;
+    border-radius: 50px;
+    height: 24px;
+  }
+}
+
+.account {
+  .profile {
+    .img-profile {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      background-color: #f2cb05;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.greeting {
+  .profile {
+    .img-profile2 {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      background-color: #f2cb05;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .text{
+    font-weight: 600;
+    p{
+        font-size: 20px;
+    }
+    small{
+        font-size: 12px;
+    }
+  }
+}
+
+.btn-nav{
+    color: white;
+    background-color: #0487d9;
+    border-radius: 25px;
+    width: 6rem;
+    &:hover{
+        border:solid 1.5px #0487d9;
+    }
+}

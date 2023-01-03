@@ -1,0 +1,44 @@
+.aside-cont {
+  overflow: auto;
+    //display: none;
+    aside {
+      min-height: 100%;
+      background-color: #0487d9;
+      color: white;
+      position: fixed;
+      width: inherit;
+      
+  
+      .title {
+        padding-left: 1.5rem;
+        p {
+          font-size: 1.4rem;
+        }
+        i {
+          font-size: 1.8rem;
+        }
+      }
+      .list-group {
+        .list-group-item {
+          border: none;
+          border-radius: 0;
+          background-color: transparent;
+          color: white;
+          padding-left: 1.5rem;
+          &:hover {
+            background-color: #6dadd5;
+          }
+          i{
+              margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  @media (max-width: 1024px){//ACA OCULTAa ASIDE
+      .aside-cont {
+          display: none;
+      }
+  } 

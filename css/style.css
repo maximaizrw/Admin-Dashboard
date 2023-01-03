@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f2;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+}
+
+.aside-cont {
+  overflow: auto;
+}
+.aside-cont aside {
+  min-height: 100%;
+  background-color: #0487d9;
+  color: white;
+  position: fixed;
+  width: inherit;
+}
+.aside-cont aside .title {
+  padding-left: 1.5rem;
+}
+.aside-cont aside .title p {
+  font-size: 1.4rem;
+}
+.aside-cont aside .title i {
+  font-size: 1.8rem;
+}
+.aside-cont aside .list-group .list-group-item {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  color: white;
+  padding-left: 1.5rem;
+}
+.aside-cont aside .list-group .list-group-item:hover {
+  background-color: #6dadd5;
+}
+.aside-cont aside .list-group .list-group-item i {
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  .aside-cont {
+    display: none;
+  }
+}
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search {
+  width: 45%;
+}
+.search i {
+  font-weight: 600;
+  margin-right: 10px;
+}
+.search input {
+  border: none;
+  background-color: #e2e8f0;
+  padding: 0;
+  border-radius: 50px;
+  height: 24px;
+}
+
+.account .profile .img-profile {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #f2cb05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting .profile .img-profile2 {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #f2cb05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greeting .text {
+  font-weight: 600;
+}
+.greeting .text p {
+  font-size: 20px;
+}
+.greeting .text small {
+  font-size: 12px;
+}
+
+.btn-nav {
+  color: white;
+  background-color: #0487d9;
+  border-radius: 25px;
+  width: 6rem;
+}
+.btn-nav:hover {
+  border: solid 1.5px #0487d9;
+}
+
+main .card-project {
+  border-left: solid 8px #f2cb05;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  min-height: 14rem;
+}
+main .card-project p {
+  font-weight: 400;
+  color: gray;
+}
+main .card-project .icons {
+  bottom: 1rem;
+  right: 2rem;
+  position: absolute;
+}
+main .card .card-body .user .img-profile {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #f2cb05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card .card-body .user .text small {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */

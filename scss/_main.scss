@@ -1,0 +1,38 @@
+main {
+  .card-project {
+    border-left: solid 8px #f2cb05;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    min-height: 14rem;
+
+    p {
+      font-weight: 400;
+      color: gray;
+    }
+    .icons {
+      bottom: 1rem;
+      right: 2rem;
+      position: absolute;
+    }
+  }
+
+  .card {
+    .card-body{
+      .user{
+        .img-profile {
+          width: 3.5rem;
+          height: 3.5rem;
+          border-radius: 50%;
+          background-color: #f2cb05;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .text{
+          small{
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}
